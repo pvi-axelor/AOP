@@ -36,3 +36,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'axelor-demo'
+
+include "modules:axelor-contact"

@@ -28,5 +28,7 @@ allprojects {
 }
 
 dependencies {
-  // add dependencies
+    implementation project(':modules:axelor-contact')
 }
+
+apply from: 'gradle/style.gradle'
